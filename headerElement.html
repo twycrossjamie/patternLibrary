@@ -63,7 +63,8 @@
         </section> <!--END OF EXAMPLES -->
         <section id="headerCodeSection" class="col-11">
             <h3>HTML &#38; SASS </h3>
-            <div id="headerCode" class="col-11">
+             <p class="strong"> HTML </p>
+            <div id="headerCode" class="col-14">
             <textarea class="code">
             <div id="headerExample" class="col-12">
                 <div class="icon1">
@@ -93,7 +94,65 @@
             </div> <!--END OF HEADER EXAMPLES -->
             </textarea>
             </div> <!--END HEADERCODE -->
+        <!--NEW SASS SECTION-->
+            <p class="strong">SASS</p>
+            <div id="headerCode" class="col-14">
+            <textarea class="code">
+            #headerExample {
+        padding-top: 2.5%;
+        height: 150px;
+        img {
+            //padding-left: 5%;
+            padding-top: 15%;
+            margin-left: 10%;
+            width: 100%;
+        }
         
+        
+        .icon1 {
+            position: relative;
+            float: left;
+            
+        }
+        .icon1Over {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            margin-left: 10%;
+            margin-top: 15%;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            background-image: url(../assets/1x/callA.jpg);
+            background-repeat: no-repeat;
+        }
+        .icon1:hover .icon1Over {
+            opacity: 1;
+        }
+            </textarea>
+            </div> <!--END HEADERCODE -->
+        </section>
+        <section id="bestPractices" class="col-14">
+        <h3>Best practices </h3>
+            <p class="strong">Header should be: </p>
+            <ul>
+                <li>Be position at the top of the page</li>
+                <li>Include links to the required function</li>
+                <li>Not be used for promotion material or detailed information </li>
+                <li>Always include the checkout basket</li>
+            </ul>
+        </section>
+        <section id="contentGuidelines" class="col-14">
+        <h3>Content guidelines </h3>
+            <p class="strong">Header content should folllow these rules: </p>
+            <ul>
+                <li>The format of functions should be call, live chat, email then checkout basket.</li>
+                <li>Links should placed right of the icons with a maximum of a 3% gap </li>
+                
+            </ul>
         </section>
     </section> <!--section main end-->
     </div> <!--wrapper End-->

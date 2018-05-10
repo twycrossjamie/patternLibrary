@@ -259,7 +259,7 @@ time, mark, audio, video {
     }
     
     #headerCodeSection {
-        height: 600px;    
+        height: 750px;    
         h3 {
         padding-top: 2%;
         font-size: $h3; 
@@ -282,6 +282,93 @@ time, mark, audio, video {
         margin-left: 5%;
     }
     
+    #bestPractices {
+        h3 {
+            padding-top: 2%;
+            font-size: $h3; 
+            border-bottom: 2px solid $b;
+            margin-bottom: 2%;
+        }
+    } 
+    #contentGuidelines {
+        margin-bottom: 5%;
+          h3 {
+            padding-top: 2%;
+            font-size: $h3; 
+            border-bottom: 2px solid $b;
+            margin-bottom: 2%;
+        }
+    }
+    #navigationExample {
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    #navExample {
+        ul {
+           list-style-type: none; 
+        }
+        li {
+            float: left;
+            padding-left: 5%;
+        }   
+    }
+    
+    
+    
+    #navExample ul li:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    #navExample ul li:active {
+        text-decoration: underline;
+        font-weight: bold;
+        color: white;
+    }
+    #colourCodes {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+  width: 98%;
+  height: 150%;
+  margin: auto;
+}
+#colourCodes h1 {
+  padding-top: 1%;
+}
+
+.colourBox{
+  width: 15%;
+  height: 45%;;
+  background-color: #0d4b7f;
+  float: left;
+  margin-left: 4.2%;
+}
+
+#c1 {
+  background-color: #0d4b7f;
+}
+#c2 {
+  background-color: #66b8ff;
+}
+#c3 {
+  background-color: #1995ff;
+}
+#c4 {
+  background-color: #335c7f;
+}
+#c5 {
+  background-color: #1477cc;
+}
+.cd {
+  text-align: center;
+  color: white;
+font-weight: bold;
+}
+   
+    
+}
+.strong {
+    font-weight: bold;
 }
     
 

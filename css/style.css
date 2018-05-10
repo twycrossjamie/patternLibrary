@@ -330,7 +330,7 @@ time, mark, audio, video {
       margin-top: 7.5%;
       margin-left: 2%; }
   #sectionMain #headerCodeSection {
-    height: 600px; }
+    height: 750px; }
     #sectionMain #headerCodeSection h3 {
       padding-top: 2%;
       font-size: 1.5em;
@@ -346,5 +346,64 @@ time, mark, audio, video {
     min-width: 90%;
     min-height: 100%;
     margin-left: 5%; }
+  #sectionMain #bestPractices h3 {
+    padding-top: 2%;
+    font-size: 1.5em;
+    border-bottom: 2px solid #1477cc;
+    margin-bottom: 2%; }
+  #sectionMain #contentGuidelines {
+    margin-bottom: 5%; }
+    #sectionMain #contentGuidelines h3 {
+      padding-top: 2%;
+      font-size: 1.5em;
+      border-bottom: 2px solid #1477cc;
+      margin-bottom: 2%; }
+  #sectionMain #navigationExample {
+    margin-bottom: 10%;
+    margin-top: 5%; }
+  #sectionMain #navExample ul {
+    list-style-type: none; }
+  #sectionMain #navExample li {
+    float: left;
+    padding-left: 5%; }
+  #sectionMain #navExample ul li:hover {
+    text-decoration: underline;
+    font-weight: bold; }
+  #sectionMain #navExample ul li:active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white; }
+  #sectionMain #colourCodes {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    width: 98%;
+    height: 150%;
+    margin: auto; }
+  #sectionMain #colourCodes h1 {
+    padding-top: 1%; }
+  #sectionMain .colourBox {
+    width: 15%;
+    height: 45%;
+    background-color: #0d4b7f;
+    float: left;
+    margin-left: 4.2%; }
+  #sectionMain #c1 {
+    background-color: #0d4b7f; }
+  #sectionMain #c2 {
+    background-color: #66b8ff; }
+  #sectionMain #c3 {
+    background-color: #1995ff; }
+  #sectionMain #c4 {
+    background-color: #335c7f; }
+  #sectionMain #c5 {
+    background-color: #1477cc; }
+  #sectionMain .cd {
+    text-align: center;
+    color: white;
+    font-weight: bold; }
+
+.strong {
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
