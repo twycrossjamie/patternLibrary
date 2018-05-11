@@ -220,11 +220,16 @@ time, mark, audio, video {
     #navMain li a {
       color: white;
       margin-left: 5%; }
+  #navMain li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: #1995ff; }
 
 #sectionMain {
   float: left;
-  height: 500px;
-  margin-left: 5%; }
+  height: auto;
+  margin-left: 5%;
+  padding-bottom: 50px; }
   #sectionMain h2 {
     font-size: 1.75em;
     border-bottom: 2px solid #0d4b7f; }
@@ -368,7 +373,8 @@ time, mark, audio, video {
     padding-left: 5%; }
   #sectionMain #navExample ul li:hover {
     text-decoration: underline;
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration-color: #1995ff; }
   #sectionMain #navExample ul li:active {
     text-decoration: underline;
     font-weight: bold;
@@ -378,16 +384,16 @@ time, mark, audio, video {
     box-sizing: border-box;
     background-color: white;
     width: 98%;
-    height: 150%;
-    margin: auto; }
-  #sectionMain #colourCodes h1 {
-    padding-top: 1%; }
+    height: 150px;
+    margin: auto;
+    margin-top: 2%; }
   #sectionMain .colourBox {
     width: 15%;
     height: 45%;
     background-color: #0d4b7f;
     float: left;
-    margin-left: 4.2%; }
+    margin-left: 4.2%;
+    margin-top: 2%; }
   #sectionMain #c1 {
     background-color: #0d4b7f; }
   #sectionMain #c2 {
@@ -401,7 +407,97 @@ time, mark, audio, video {
   #sectionMain .cd {
     text-align: center;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+    padding-top: 25%; }
+  #sectionMain #buttonExample {
+    margin-top: 2%;
+    height: 100px; }
+  #sectionMain .icon5 {
+    position: relative;
+    margin-left: 2%;
+    max-width: 30%;
+    margin-bottom: 5%;
+    margin-top: 2%; }
+  #sectionMain .addPlannerOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-image: url(../assets/1x/addPlannerA.jpg);
+    background-repeat: no-repeat; }
+  #sectionMain .icon5:hover .addPlannerOver {
+    opacity: 1; }
+  #sectionMain .icon6 {
+    position: relative;
+    margin-left: 2%;
+    max-width: 30%;
+    margin-bottom: 5%;
+    margin-top: 2%; }
+  #sectionMain .playOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-image: url(../assets/1x/playA-100.jpg);
+    background-repeat: no-repeat; }
+  #sectionMain .icon6:hover .playOver {
+    opacity: 1; }
+  #sectionMain .icon7 {
+    position: relative;
+    margin-left: 2%;
+    max-width: 30%;
+    margin-bottom: 5%;
+    margin-top: 2%; }
+  #sectionMain .pauseOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-image: url(../assets/1x/pauseA-100.jpg);
+    background-repeat: no-repeat; }
+  #sectionMain .icon7:hover .pauseOver {
+    opacity: 1; }
+  #sectionMain .icon8 {
+    position: relative;
+    margin-left: 2%;
+    max-width: 30%;
+    margin-bottom: 5%;
+    margin-top: 2%; }
+  #sectionMain .stopOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-image: url(../assets/1x/stopA-100.jpg);
+    background-repeat: no-repeat; }
+  #sectionMain .icon8:hover .stopOver {
+    opacity: 1; }
+  #sectionMain .icon9 {
+    margin-bottom: 5%;
+    height: 50px;
+    display: block; }
+  #sectionMain #buttonExample {
+    height: 750px; }
 
 .strong {
   font-weight: bold; }

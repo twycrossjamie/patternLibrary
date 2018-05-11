@@ -121,12 +121,20 @@ time, mark, audio, video {
             
         }
     }
+    
+    li a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        text-decoration-color: $lb;
+    }
+    
 }
 #sectionMain {
     float: left;
     //width: 40%;
-    height: 500px;
+    height: auto;
     margin-left: 5%;
+    padding-bottom: 50px;
     
     h2 {
         font-size: $h2;
@@ -318,6 +326,7 @@ time, mark, audio, video {
     #navExample ul li:hover {
         text-decoration: underline;
         font-weight: bold;
+        text-decoration-color: $lb;
     }
     #navExample ul li:active {
         text-decoration: underline;
@@ -325,23 +334,23 @@ time, mark, audio, video {
         color: white;
     }
     #colourCodes {
-  text-align: center;
-  box-sizing: border-box;
-  background-color: white;
-  width: 98%;
-  height: 150%;
-  margin: auto;
-}
-#colourCodes h1 {
-  padding-top: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    width: 98%;
+    height: 150px;
+    margin: auto;
+    margin-top: 2%;
 }
 
+
 .colourBox{
-  width: 15%;
-  height: 45%;;
-  background-color: #0d4b7f;
-  float: left;
-  margin-left: 4.2%;
+    width: 15%;
+    height: 45%;;
+    background-color: #0d4b7f;
+    float: left;
+    margin-left: 4.2%;
+    margin-top: 2%;
 }
 
 #c1 {
@@ -360,12 +369,116 @@ time, mark, audio, video {
   background-color: #1477cc;
 }
 .cd {
-  text-align: center;
-  color: white;
-font-weight: bold;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 25%;
 }
-   
+    #buttonExample {
+        margin-top: 2%;
+        height: 100px;
+    }
+    .icon5 {
+            position: relative;
+            margin-left: 2%;
+            max-width: 30%;
+            margin-bottom: 5%;
+            margin-top: 2%;
+        }
+        .addPlannerOver {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            max-height: 100%;
+            max-width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            background-image: url(../assets/1x/addPlannerA.jpg);
+            background-repeat: no-repeat;
+        }
+        .icon5:hover .addPlannerOver {
+            opacity: 1;
+        }
     
+.icon6 {
+            position: relative;
+            margin-left: 2%;
+            max-width: 30%;
+            margin-bottom: 5%;
+            margin-top: 2%;
+        }
+        .playOver {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            max-height: 100%;
+            max-width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            background-image: url(../assets/1x/playA-100.jpg);
+            background-repeat: no-repeat;
+        }
+        .icon6:hover .playOver {
+            opacity: 1;
+        }
+    .icon7 {
+            position: relative;
+            margin-left: 2%;
+            max-width: 30%;
+            margin-bottom: 5%;
+            margin-top: 2%;
+        }
+        .pauseOver {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            max-height: 100%;
+            max-width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            background-image: url(../assets/1x/pauseA-100.jpg);
+            background-repeat: no-repeat;
+        }
+        .icon7:hover .pauseOver {
+            opacity: 1;
+        }
+    .icon8 {
+            position: relative;
+            margin-left: 2%;
+            max-width: 30%;
+            margin-bottom: 5%;
+            margin-top: 2%;
+        }
+        .stopOver {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            max-height: 100%;
+            max-width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            background-image: url(../assets/1x/stopA-100.jpg);
+            background-repeat: no-repeat;
+        }
+        .icon8:hover .stopOver {
+            opacity: 1;
+        }
+    .icon9 {
+        margin-bottom: 5%;
+        height: 50px;
+        display: block;
+    }
+    #buttonExample {
+        height: 750px;
+    }
 }
 .strong {
     font-weight: bold;
