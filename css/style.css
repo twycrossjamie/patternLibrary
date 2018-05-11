@@ -340,7 +340,7 @@ time, mark, audio, video {
       padding-top: 2%;
       font-size: 1.5em;
       border-bottom: 2px solid #1477cc; }
-  #sectionMain #headerCode {
+  #sectionMain .headerCode {
     margin-top: 2.5%;
     height: 300px;
     background-color: grey;
